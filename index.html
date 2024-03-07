@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kio.css">
+    <title>Kiosk Government Schemes</title>
+    
+      
+
+</head>
+<body>
+    <!-- <img src="1.jpg" alt="hello"> -->
+    <div class="menu">
+        <ul>
+            <div class="home"><li ><a href="index.html">Home</a></li></div>
+            <div class="about"><li><a href="KA.html">About</a></li></div>
+            <div class="guideline"><li><a href="KG.html">Guideline</a></li></div>
+            <div class="contact"><li><a href="KS.html">Contact</a></li></div>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- <h1> Government Schemes using</br><span>Kiosk</span> Management</h1> -->
+        <h1>Information<span> Kiosk</span> </br>about Government Schemes</h1>
+        <p>This Kiosk will help people in rural areas learn about government plans and information easily. It will have a simple screen that people can use, and it will also talk to them in their local language. The Kiosk will use smart technology to give the latest updates and help people interact with it. This way, people can get the right information and use government services more easily, which will also help their communities grow.</p>
+    </div>
+    <div class="reg">
+        <h3>Sign Up</h3>
+        <form action="gender.html" id="registrationForm">
+        <form method="post">
+            <div class="input">
+                <!-- <label class="textlabel" for="name">Name</label> -->
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="input">
+                <!-- <label class="textlabel" for="num">Mobile No</label> -->
+                <input type="text" id="phone" name="num" placeholder="Mobile Number" required >
+            </div>
+            <div class="input">
+                <!-- <label class="textlabel" for="age">Age</label> -->
+                <input type="number" id="age" name="age" required placeholder="Age">
+            </div>
+            <!-- <div class="aziz">
+                <input type="radio" name="gender" id="maleRadio" required>
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="femaleRadio" required>
+                <label for="female">Female</label></a>
+            </div> -->
+            <div class="btn">
+                <button type="submit" id="schemesButton"> Schemes</button>
+                </a>
+            </div>
+        </form>
+        <!-- </form> -->
+    </div>
+    <!-- <script>
+        const maleRadio = document.getElementById("maleRadio");
+        const femaleRadio = document.getElementById("femaleRadio");
+        const schemesButton = document.getElementById("schemesButton");
+
+        schemesButton.addEventListener("click",function() {
+
+            if(maleRadio.checked){
+                window.location.href="maleschemes.html";
+            }else if (femaleRadio.checked) {
+                window.location.href="femaleschemes.html";
+            }else {
+                alert("Please select a gender");
+            }
+        });
+    </script> -->
+    <!-- <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate()
+        {
+            new google.translate.TranslateElement("google_element")
+        }
+    </script> -->
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,ta,te,ma,hi'}, 'google_translate_element');
+    }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div id="google_element"></div>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+    <script src="app.js">
+    </script>
+   
+</body>
+</html>
